@@ -129,7 +129,7 @@ l *= 2 # l =  [0, 1, 2, 0, 1, 2, 0, 1, 2]
 insert x at index i
 l.insert(i,x)
 """
-l.index(2,34)
+l.insert(2,34)
 
 """
 pop at index i. By default value of i = -1
@@ -181,8 +181,20 @@ a 2.x style cmp function to a key function. sort is a stable sort.
 l.sort(key=lambda x: x.prop) # sort according to a property of x
 
 """
+find index of an element x in list
+index raises a value error
+l.index(x, i, j)
+find x in l between indices i and j-1
+"""
+l = list(range(10))
+l.index(5, 3, 9)
 
 """
+count the total number of occurrences
+of x in l
+"""
+l.count(6)
+
 
 
 
