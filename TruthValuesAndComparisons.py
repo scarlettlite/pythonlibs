@@ -28,6 +28,11 @@ In practice __lt__ and __eq__ are enough
 Behavior of is and is not cannot be customized
 """
 
+"""
+how do compare functions work
+how to write compare functions for descending and ascending
+"""
+
 
 
 #
